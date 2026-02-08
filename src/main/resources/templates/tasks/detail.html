@@ -9,7 +9,7 @@
 </head>
 <body>
 <section layout:fragment="content">
-    <div>
+    <div
         <a th:href="@{/tasks/{id}/editForm(id=${id})}" class="btn btn-primary">編集</a>
         <form
                 th:action="@{/tasks/{id(id=${id})}}"
